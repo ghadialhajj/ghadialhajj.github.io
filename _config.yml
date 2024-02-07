@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Ghadi Al Hajj / Personal Website"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ghadi Al Hajj"
+description              : &description "PhD Student"
+url                      : https://ghadialhajj.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "ghadialhajj/ghadialhajj.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -181,9 +181,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+#  portfolio:
+#    output: true
+#    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
