@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "DagSim: Combining DAG-based model structure with unconstrained data types and relations for flexible, transparent, and modularized data simulation"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/dagsim
+excerpt: 'Data simulation is fundamental for machine learning and causal inference, as it allows exploration of scenarios and assessment of methods in settings with full control of ground truth. Directed acyclic graphs (DAGs) are well established for encoding the dependence structure over a collection of variables in both inference and simulation settings. However, while modern machine learning is applied to data of an increasingly complex nature, DAG-based simulation frameworks are still confined to settings with relatively simple variable types and functional forms. We here present DagSim, a Python-based framework for DAG-based data simulation without any constraints on variable types or functional relations. A succinct YAML format for defining the simulation model structure promotes transparency, while separate user-provided functions for generating each variable based on its parents ensure simulation code modularization. We illustrate the capabilities of DagSim through use cases where metadata variables control shapes in an image and patterns in bio-sequences. DagSim is available as a Python package at PyPI. Source code and documentation are available at: https://github.com/uio-bmi/dagsim.'
+date: 2023-04-14
+venue: 'PLOS ONE'
+paperurl: '[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0284443](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0284443)'
+citation: 'Al Hajj GS, Pensar J, Sandve GK (2023) DagSim: Combining DAG-based model structure with unconstrained data types and relations for flexible, transparent, and modularized data simulation. PLoS ONE 18(4): e0284443. https://doi.org/10.1371/journal.pone.0284443'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Data simulation is fundamental for machine learning and causal inference, as it allows exploration of scenarios and assessment of methods in settings with full control of ground truth. Directed acyclic graphs (DAGs) are well established for encoding the dependence structure over a collection of variables in both inference and simulation settings. However, while modern machine learning is applied to data of an increasingly complex nature, DAG-based simulation frameworks are still confined to settings with relatively simple variable types and functional forms. We here present DagSim, a Python-based framework for DAG-based data simulation without any constraints on variable types or functional relations. A succinct YAML format for defining the simulation model structure promotes transparency, while separate user-provided functions for generating each variable based on its parents ensure simulation code modularization. We illustrate the capabilities of DagSim through use cases where metadata variables control shapes in an image and patterns in bio-sequences. DagSim is available as a Python package at PyPI. Source code and documentation are available at: https://github.com/uio-bmi/dagsim.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here]([http://academicpages.github.io/files/paper1.pdf](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0284443&type=printable))
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Al Hajj GS, Pensar J, Sandve GK (2023) DagSim: Combining DAG-based model structure with unconstrained data types and relations for flexible, transparent, and modularized data simulation. PLoS ONE 18(4): e0284443. https://doi.org/10.1371/journal.pone.0284443
